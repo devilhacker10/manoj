@@ -1,0 +1,62 @@
+body{ 
+	margin: 0; 
+} 
+.main-header{ 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	margin: 0;
+} 
+.main-header > header > h1 > a{
+	text-decoration: none;
+	color: black;
+}
+.main-header > header > h1 > a > span 
+{ 
+	color: red; 
+
+
+}  
+.nav1{ 
+	display: flex; 
+	list-style: none; 
+	padding:0px; 
+	background-color: rgba(1, 1, 0, 0.5);
+	margin: 0;
+	transition: all 1s;
+} 
+
+
+.navbar > .nav1 > li{ 
+    
+	background-color: black; 
+	padding: 10px;
+	transition: all 1s;
+}
+
+.navbar > .nav1 > li{ 
+    
+	background-color: black; 
+	padding: 10px;
+	
+	
+}
+ .navbar > .nav1 > li > a{ 
+ 	text-decoration: none; 
+ 	color: red;
+ 	margin: 10px;
+ 	padding: 5px;
+ 	
+ }
+
+
+ .push{ 
+	margin-left: auto; 
+} 
+
+address{
+	margin: 20px;
+	font-size: 110%;
+	font-weight: bold;
+
+}

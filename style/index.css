@@ -1,0 +1,104 @@
+body{ 
+	margin: 0; 
+} 
+.main-header{ 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	margin: 0;
+} 
+.main-header > header > h1 > a{
+	text-decoration: none;
+	color: black;
+}
+.main-header > header > h1 > a > span 
+{ 
+	color: red; 
+
+
+}  
+.stiky{
+
+	position-top: fixed;
+	width: 100%;
+}
+.nav1{ 
+	display: flex; 
+	list-style: none; 
+	padding:0px; 
+	background-color: rgba(1, 1, 0, 0.5);
+	margin: 0;
+	
+} 
+
+
+.navbar > .nav1 > li{ 
+    
+	background-color: black; 
+	padding: 10px;
+
+}
+
+ .navbar > .nav1 > li > a{ 
+ 	text-decoration: none; 
+ 	color: red;
+ 	margin: 10px;
+ 	padding: 5px;
+ 	transition: all 1s;
+ 	
+ }
+
+
+.navbar > .nav1 > li > a{ 
+ 	text-decoration: none; 
+ 	color: red;
+ 	margin: 10px;
+ 	padding: 5px;
+ 	transition: all 1s;
+ 	
+ }
+ .push{ 
+	margin-left: auto; 
+} 
+
+
+.div1{
+	display: flex;
+	height: 38vh;
+	align-items: center;
+	justify-content:center;
+	background-color: white;
+	/*border: 3px dashed black;*/
+
+}
+
+
+.index-img{
+	
+	width: 35rem;
+	
+
+}
+/*.div2{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}*/
+
+.box > img {
+	width: 100%;
+
+}
+
+.box{
+	 padding: 45px;
+	 margin: 10px;
+	 border: 3px dashed pink;
+}
+
+footer{
+	text-align: center;
+	background-color: black;
+	color:white;
+	height: 5vh;
+}
