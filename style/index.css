@@ -103,8 +103,9 @@ body{
 }
 
 footer{
-	position:
+	
 	text-align: center;
+	justify-content: center;
 	background-color: black;
 	color:white;
 	height: 5vh;
